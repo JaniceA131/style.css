@@ -3,15 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
 body {
   font-family: Arial, sans-serif;
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: maroon;
+  color: white;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -28,27 +26,26 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: violet;
   text-decoration: none;
 }
 
 .hero {
-  
+  font-size: 12px;
 }
 
 section {
   margin: 20px;
 }
 
-aside#imageContainer img {
-  max-width: 100%;
-  height: auto;
-  display: none; 
+aside {
+  width: 20%;
+  margin: 23;
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: green;
+  color: white;
   padding: 10px 20px;
   text-align: center;
 }
